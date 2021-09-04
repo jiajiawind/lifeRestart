@@ -3,7 +3,7 @@
         "id": "1001",
         "name": "随身玉佩",
         "description": "或许有护佑作用",
-        "grade": 3
+        "grade": 0
     },
     "1002": {
         "id": "1002",
@@ -15,7 +15,7 @@
         "id": "1003",
         "name": "生而为男",
         "description": "性别一定为男",
-        "grade": 0,
+        "grade": 1,
         "exclusive": [
             "1004",
             "1025",
@@ -27,7 +27,7 @@
         "id": "1004",
         "name": "生而为女",
         "description": "性别一定为女",
-        "grade": 0,
+        "grade": 1,
         "exclusive": [
             "1003",
             "1024",
@@ -149,7 +149,7 @@
         "id": "1018",
         "name": "人类进化",
         "description": "所有属性+1",
-        "grade": 0,
+        "grade": 2,
         "effect": {
             "SPR": 1,
             "MNY": 1,
@@ -162,14 +162,14 @@
         "id": "1019",
         "name": "超凡",
         "description": "初始可用属性点+4",
-        "grade": 1,
+        "grade": 2,
         "status": 4
     },
     "1020": {
         "id": "1020",
         "name": "父母美貌",
         "description": "颜值+2",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "CHR": 2
         }
@@ -194,7 +194,7 @@
         "id": "1023",
         "name": "半神",
         "description": "所有属性+2",
-        "grade": 0,
+        "grade": 2,
         "effect": {
             "SPR": 2,
             "MNY": 2,
@@ -207,7 +207,7 @@
         "id": "1024",
         "name": "人中龙凤",
         "description": "天生双重性别",
-        "grade": 1,
+        "grade": 0,
         "exclusive": [
             "1003",
             "1004",
@@ -410,7 +410,7 @@
         "name": "三十而立",
         "description": "30岁时家境+2",
         "condition": "AGE?[30]",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "MNY": 2
         }
@@ -420,7 +420,7 @@
         "name": "四十不惑",
         "description": "40岁时智力+2",
         "condition": "AGE?[40]",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "INT": 2
         }
@@ -430,7 +430,7 @@
         "name": "知天命",
         "description": "50岁时智力、快乐+1",
         "condition": "AGE?[50]",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "SPR": 1,
             "INT": 1
@@ -441,7 +441,7 @@
         "name": "耳顺",
         "description": "60岁时快乐+2",
         "condition": "AGE?[60]",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "SPR": 2
         }
@@ -451,7 +451,7 @@
         "name": "从心所欲",
         "description": "70岁时快乐+3",
         "condition": "AGE?[70]",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "SPR": 3
         }
@@ -461,7 +461,7 @@
         "name": "老当益壮",
         "description": "60岁时体质+2",
         "condition": "AGE?[60]",
-        "grade": 0,
+        "grade": 2,
         "effect": {
             "STR": 2
         }
@@ -471,7 +471,7 @@
         "name": "鹤发童颜",
         "description": "70岁时颜值+3",
         "condition": "AGE?[70]",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "CHR": 3
         }
@@ -481,7 +481,7 @@
         "name": "学前启蒙",
         "description": "5岁时智力+2",
         "condition": "AGE?[5]",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "INT": 2
         }
@@ -491,7 +491,7 @@
         "name": "十八变",
         "description": "18岁时颜值+2",
         "condition": "AGE?[18]",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "CHR": 2
         }
@@ -511,7 +511,7 @@
         "name": "理财达人",
         "description": "30、40、50岁时家境+1",
         "condition": "AGE?[30,40,50]",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "MNY": 1
         }
@@ -550,14 +550,14 @@
         "id": "1063",
         "name": "开光之胎",
         "description": "初始可用属性点+1",
-        "grade": 1,
+        "grade": 2,
         "status": 1
     },
     "1064": {
         "id": "1064",
         "name": "天命",
         "description": "初始可用属性点+8",
-        "grade": 0,
+        "grade": 1,
         "status": 8
     },
     "1065": {
@@ -722,7 +722,7 @@
         "name": "天启",
         "description": "快乐>10时其他属性+2",
         "condition": "SPR>10",
-        "grade": 1,
+        "grade": 2,
         "effect": {
             "MNY": 2,
             "CHR": 2,
@@ -735,7 +735,7 @@
         "name": "神谕",
         "description": "快乐>10时其他属性+3",
         "condition": "SPR>10",
-        "grade": 0,
+        "grade": 2,
         "effect": {
             "MNY": 3,
             "CHR": 3,
@@ -972,21 +972,21 @@
         "name": "白色胶囊",
         "description": "你10岁时无事发生",
         "condition": "AGE?[10]",
-        "grade": 3
+        "grade": 2
     },
     "1104": {
         "id": "1104",
         "name": "紫色胶囊",
         "description": "跳过你的40~50岁",
         "condition": "AGE?[40,41,42,43,44,45,46,47,48,49,50]",
-        "grade": 2
+        "grade": 1
     },
     "1105": {
         "id": "1105",
         "name": "蓝色胶囊",
         "description": "你20、30岁时无事发生",
         "condition": "AGE?[20,30]",
-        "grade": 2
+        "grade": 1
     },
     "1106": {
         "id": "1106",
@@ -1028,7 +1028,7 @@
         "id": "1112",
         "name": "异界来客",
         "description": "你可能听到一些绝密消息",
-        "grade": 1
+        "grade": 0
     },
     "1113": {
         "id": "1113",
@@ -1157,6 +1157,6 @@
         "id": "1131",
         "name": "魔法棒",
         "description": "不知道有什么用……",
-        "grade": 2
+        "grade": 0
     }
 }
